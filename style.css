@@ -1,0 +1,40 @@
+body{
+    background-color:black;
+    font-family:Arial, Helvetica, sans-serif;
+    color:white;
+}
+h1{
+    color:aqua;
+
+}
+a{
+    color:darkblue
+}
+a:hover{
+    color:blanchedalmond;
+}
+ul > li{
+    color:gray;
+    font-weight:bold;
+
+}
+ul li:hover{
+    color:gold;
+}
+ul li:nth-child(3){
+    background:linear-gradient(to right, red, orange, yellow,)
+}
+p:not(:first-of-type){
+    text-decoration:underline;
+    text-decoration:overline;
+}
+p::first-letter{
+    font: size 200%;
+    color:Orange;
+}
+ul li::before{
+    content:"🚀 ";
+}
+a::after{
+    content:" 🌌";
+}
